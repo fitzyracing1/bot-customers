@@ -1,0 +1,7 @@
+{
+  "name": "fixture-npm-pass",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "node -e \"process.exit(0)\""
+  }
+}
