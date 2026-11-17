@@ -1,0 +1,7 @@
+{
+  "name": "fixture-npm-timeout",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "node -e \"setTimeout(() => {}, 60000)\""
+  }
+}

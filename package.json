@@ -1,0 +1,16 @@
+{
+  "name": "bot-customers",
+  "version": "0.1.0",
+  "description": "Clone a public repo, detect how to test it, run the tests, and write a lit or dark job record. Read-only; never pushes or comments.",
+  "bin": {
+    "bot-customers": "bin/bot-customers.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.js"
+  },
+  "author": "Joshua Almeida (https://github.com/fitzyracing1)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
